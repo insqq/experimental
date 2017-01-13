@@ -17,3 +17,8 @@ gulp.task('js', function () {
         .pipe(concat('all.min.js'))
         .pipe(gulp.dest(outputPath + '/js'))
 });
+
+gulp.task('watch', function () {
+    gulp.watch('code/**/*.html', ['html']);
+    gulp.watch('code/**/*.js', ['js']);
+});

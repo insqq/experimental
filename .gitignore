@@ -3,3 +3,4 @@ target
 src/frontend/bower_components
 src/frontend/node_modules
 src/main/resources/frontend
+src/public

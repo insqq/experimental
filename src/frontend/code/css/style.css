@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.conteiner {
+	width: 960px;
+	margin:  auto;
+}
+.top-panel {
+	border-top: 2px solid #545454;
+	background: #353535;
+}
+.social a {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	background: url(../img/social.png) no-repeat center;
+}
+.social a.s-fb {
+	background-position: 0 0;
+}
+
+.social a.s-vk {
+	background-position: -25px 0;
+}
+.social a.s-em {
+	background-position: -50px 0;
+}
+.social a.s-sk {
+	background-position: -75px 0;
+}
+.social a:hover {
+	width: 23px;
+	height: 23px;
+}
+.social {
+	float: right;
+	padding-top: 12px;
+	padding-bottom: 12px
+}
+.menu li {
+	float: left;
+	padding-top: 12px;
+	padding-left: 20px;
+}
+.menu li a {
+	font-weight: bold;
+	font-size: 25px;
+}
+.menu li + li {
+	margin-left: 50px;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.menu a:hover {
+	text-decoration: underline;
+
+}
+.middle {
+	height: 564px;
+	background: url(../img/middle.png) no-repeat;
+}
+.middle {
+	
+	margin-left: 163px;
+}

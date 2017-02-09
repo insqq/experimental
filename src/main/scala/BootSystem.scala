@@ -1,12 +1,12 @@
-import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
-import controllers.IndexController
+import controllers.{FrontEndController, IndexController}
 
 
 trait BootSystem
-  extends IndexController {
+  extends IndexController with FrontEndController {
 
   val routes =
-    indexRoute
+    indexRoute ~
+      frontEndRoute
 
 }

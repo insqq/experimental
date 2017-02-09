@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="public/css/styles.css"/>
+	<meta charset="UTF-8">
+	<title>My portfolio</title>
+	<base href="/"/>
+</head>
+<body ng-app="app">
+	<header >	
+		<div class="top-panel">
+			<div class="conteiner"> 
+				<div class="social">
+					<a href="https://www.facebook.com/vova.kalakura.9" class="s-fb" target= "_blank"></a>
+					<a href="https://vk.com/id20163715" class="s-vk" target= "_blank"></a>
+					<a href="#" class="s-em"></a>
+					<a href="#" class="s-sk"></a>
+				</div>
+				<nav class="menu clearfix">
+					<ul>
+						<li><a ng-href="/">home</a></li>
+						<li><a ng-href="about">about</a></li>
+						<li><a ng-href="portfolio">portfolio</a></li>
+						<li><a ng-href="feature">feature</a></li>
+						<li><a ng-href="contacts">contacts</a></li>
+					<div style="clear: both;"></div>
+					</ul> 
+				</nav>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	</header>
+	<div class="middle">
+	</div>
+	<ng-view></ng-view>
+	<script src="public/js/vendor.min.js"></script>
+	<script src="public/js/all.min.js"></script>
+</body>
+</html>
